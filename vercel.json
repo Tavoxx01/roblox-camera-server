@@ -1,0 +1,16 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "outputDirectory": ".",
+  "framework": "flask",
+  "env": {
+    "FLASK_ENV": "production",
+    "ROBLOX_TOKEN": "@roblox_token",
+    "FRONTEND_TOKEN": "@frontend_token"
+  },
+  "functions": {
+    "run.py": {
+      "memory": 512,
+      "maxDuration": 60
+    }
+  }
+}
